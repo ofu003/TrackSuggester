@@ -11,8 +11,9 @@ $(function(){
     if (graphicDesign!=="blank"&&workingEnv!=="blank"&&hobbies!=="blank"&&appsVsWeb!=="blank"&&dynamicContent!=="blank"){
       if (graphicDesign==="1"&&hobbies==="y"){
         $("#showCSSDesign").show();
+        $("#showAnswers").show();
         }
-      else if (dynamicContent==="y"&&appsVsWeb==="websites"){
+      else if (dynamicContent==="y"&&appsVsWeb==="websites"&&workingEnv==="startup"){
         $("#showRubyRails").show();
         }
       else {
@@ -50,4 +51,7 @@ $(function(){
       }
     event.preventDefault();
     });
+  // $("div#showAnswers").submit(function(){
+  //   $("div#showAnswers").hide();
+    // });
   });
