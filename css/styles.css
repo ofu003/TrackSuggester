@@ -12,10 +12,19 @@ body {
 #h1div{
   margin-top: 125px;
   }
+
 p{
   color: lightgray;
   font-size: 20px;
   font-family: sans-serif;
+  }
+
+div#showAnswers{
+  color: lightgreen;
+  font-size: 25px;
+  font-family: serif;
+  padding: 50px;
+  text-align: center;
   }
 
 div#container{
