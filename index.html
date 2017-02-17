@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Programming Track Suggestion</title>
+  </head>
+  <body>
+    <h1>Which track should I take?</h1>
+    <h2>Take this short survey for advice on which track you may be interested in</h2>
+    <div id="container">
+      <form id="Form">
+        <label for="gender"><p>Gender</p></label>
+          <select id="genderbox">
+            <option value=""></option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+        <label for="age"><p>Age</p></label>
+          <input id="age">
+          <br>
+        <label for="sign"><p>Sign</p></label>
+          <select id="signbox">
+
+            <option value="aquarius">Aquarius</option>
+            <option value="pisces">Pisces</option>
+            <option value="aries">Aries</option>
+            <option value="taurus">Taurus</option>
+            <option value="gemini">Gemini</option>
+            <option value="cancer">Cancer</option>
+            <option value="leo">Leo</option>
+            <option value="virgo">Virgo</option>
+            <option value="libra">Libra</option>
+            <option value="scorpio">Scorpio</option>
+            <option value="sagittarius">Sagittarius</option>
+            <option value="capricorn">Capricorn</option>
+          </select>
+          <br>
+        <label for="height"><p>Height</p></label>
+        <select id="heightList">
+          <option value="superTall">6' 4" plus</option>
+          <option value="tall">5' 10" to 6' 4"</option>
+          <option value="average">5' 2" to 5' 10"</option>
+          <option value="short">below 5' 2"</option>
+        </select>
+          <br>
+        <label for="tipping"><p>Tipping Habits</p></label>
+          <select id="tipList">
+            <option value="bigSpender">20% or more</option>
+            <option value="respectable">18%</option>
+            <option value="miser">10%</option>
+            <option value="cheapSkate">5% and less</option>
+          </select>
+          <br>
+        <label for="movie"><p>Favorite Movie Genre</p></label>
+          <select id="movieList">
+            <option value="drama">Drama</option>
+            <option value="comedy">Comedy</option>
+            <option value="classics">Classics</option>
+            <option value="sci-fi">Sci-Fi</option>
+            <option value="musical">Musicals</option>
+          </select>
+          <br>
+        <label for="music"><p>Favorite Type of Music</p></label>
+          <select id="musicList">
+            <option value="rock">Rock</option>
+            <option value="jazz">Jazz</option>
+            <option value="classical">Classical</option>
+            <option value="rap">Rap</option>
+            <option value="bluegrass">Bluegrass</option>
+          </select>
+          <br>
+        <button class="btn" type="submit">Submit</button>
+      </form>
+    </div>
+
+    <br>
+    <div id="showAshton">
+      <p>Ashton</p>
+    </div>
+
+    <div id="showEva">
+      <p>Eva Mendes</p>
+    </div>
+
+
+
+    <div id="missingInfo">
+      <div id="errorAge">
+        <p>please fill out the age box</p>
+      </div>
+      <div id="errorGender">
+        <p>Please fill in gender box</p>
+    </div>
+
+  </body>
+</html>

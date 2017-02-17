@@ -1,0 +1,35 @@
+#showAshton, #showEva, #errorAge,#errorGender {
+  display: none;
+}
+
+body {
+  background-image:
+
+  url("http://cdn.wonderfulengineering.com/wp-content/uploads/2014/07/Hi-Tech-Wallpaper-1.png");
+
+  /*url("https://cdn.cloudpix.co/images/tumblr-backgrounds/more-tumblr-backgrounds-for-guys-light-gray-1a2ae3139fa930300cadb4928cff05a0-large-1160919.jpg");*/
+
+
+  background-attachment: fixed;
+  background-position: center;
+}
+
+p{
+  color:  white;
+
+}
+
+div#container{
+  padding: 50px;
+  margin: 50px;
+  opacity: 2;
+}
+
+h1{
+  color: lightgray;
+  text-align: center;
+}
+h2{
+  color: lightyellow;
+  text-align: center;
+}
