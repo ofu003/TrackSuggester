@@ -13,80 +13,57 @@
     <h2>Take this short survey for advice on which track you may be interested in</h2>
     <div id="container">
       <form id="Form">
-        <label for="gender"><p>Gender</p></label>
-          <select id="genderbox">
-            <option value=""></option>
-            <option value="male">Male</option>
-            <option value="female">Female</option>
-          </select>
-        <label for="age"><p>Age</p></label>
-          <input id="age">
-          <br>
-        <label for="sign"><p>Sign</p></label>
-          <select id="signbox">
-
-            <option value="aquarius">Aquarius</option>
-            <option value="pisces">Pisces</option>
-            <option value="aries">Aries</option>
-            <option value="taurus">Taurus</option>
-            <option value="gemini">Gemini</option>
-            <option value="cancer">Cancer</option>
-            <option value="leo">Leo</option>
-            <option value="virgo">Virgo</option>
-            <option value="libra">Libra</option>
-            <option value="scorpio">Scorpio</option>
-            <option value="sagittarius">Sagittarius</option>
-            <option value="capricorn">Capricorn</option>
+        <label for="q1"><p>How much attention do you pay to graphic design and interactive features when visiting web sites?</p></label>
+          <select id="q1">
+            <option value="1"><p>Probably more than the average person</p></option>
+            <option value="2"><p>About as much as as the average person<p></option>
+            <option value="3"><p>I don't really ay attention to those things</p></option>
           </select>
           <br>
-        <label for="height"><p>Height</p></label>
-        <select id="heightList">
-          <option value="superTall">6' 4" plus</option>
-          <option value="tall">5' 10" to 6' 4"</option>
-          <option value="average">5' 2" to 5' 10"</option>
-          <option value="short">below 5' 2"</option>
+        <label for="q2"><p>Which working environment do you prefer?
+          <br>A: working for a company/enterprise/organization
+          <br>B: working independently as a freelancer</p></label>
+          <select id="q2">
+            <option value="a"><p>A</p></option>
+            <option value="b"><p>B</p></option>
+          </select>
+          <br>
+        <label for="q3"><p>Do you like to take photos, draw, or paint? Do you critique fashion or visual effects in TV or movies? </p></label>
+          <select id="q3">
+            <option value="1"><p>I enjoy doing one or more of those things, or something else related to visual arts. </p></option>
+            <option value="2"><p>No, I don't really care about those things.</p></option>
+          </select>
+          <br>
+        <label for="q4"><p>Would you prefer to work on mobile apps or websites?</p></label>
+        <select id="q4">
+          <option value="1"><p>Mobile Apps!</p></option>
+          <option value="2"><p>Websites!</p></option>
         </select>
           <br>
-        <label for="tipping"><p>Tipping Habits</p></label>
-          <select id="tipList">
-            <option value="bigSpender">20% or more</option>
-            <option value="respectable">18%</option>
-            <option value="miser">10%</option>
-            <option value="cheapSkate">5% and less</option>
+        <label for="q5"><p>Would you be interested in working on dynamic content for a small company or startup?</p></label>
+          <select id="q5">
+            <option value="1"><p>Yes</p></option>
+            <option value="2"><p>No</p></option>
+            <option value="3"><p>Maybe</p></option>
           </select>
           <br>
-        <label for="movie"><p>Favorite Movie Genre</p></label>
-          <select id="movieList">
-            <option value="drama">Drama</option>
-            <option value="comedy">Comedy</option>
-            <option value="classics">Classics</option>
-            <option value="sci-fi">Sci-Fi</option>
-            <option value="musical">Musicals</option>
-          </select>
-          <br>
-        <label for="music"><p>Favorite Type of Music</p></label>
-          <select id="musicList">
-            <option value="rock">Rock</option>
-            <option value="jazz">Jazz</option>
-            <option value="classical">Classical</option>
-            <option value="rap">Rap</option>
-            <option value="bluegrass">Bluegrass</option>
-          </select>
-          <br>
-        <button class="btn" type="submit">Submit</button>
+          <button class="btn" type="submit">Submit</button>
       </form>
-    </div>
-
+    </div> <!-- container -->
     <br>
-    <div id="showAshton">
-      <p>Ashton</p>
+    <div id="showJavaAndroid">
+      <p>You may be intrested in the <strong>Java/Android</strong>track!</p>
     </div>
 
-    <div id="showEva">
-      <p>Eva Mendes</p>
+    <div id="showCSSDesign">
+      <p>You may be intrested in the <strong>CSS/Design</strong>track!</p>
     </div>
 
+    <div id="showRubyRails">
+      <p>You may be intrested in the <strong>Ruby/Rails</strong>track!</p>
+    </div>
 
+<!--
 
     <div id="missingInfo">
       <div id="errorAge">
@@ -95,6 +72,7 @@
       <div id="errorGender">
         <p>Please fill in gender box</p>
     </div>
+  -->
 
   </body>
 </html>
