@@ -9,12 +9,14 @@
     <title>Programming Track Suggestion</title>
   </head>
   <body>
-    <h1>Which track should I take?</h1>
+    <h1><div id="h1div">Which track should I take?</div></h1>
     <h2>Take this short survey for advice on which track you may be interested in</h2>
     <div id="container">
       <form id="Form">
         <label for="q1"><p>How much attention do you pay to graphic design and interactive features when visiting web sites?</p></label>
+        <br>
           <select id="q1">
+            <option value="blank"><p></p></option>
             <option value="1"><p>Probably more than the average person</p></option>
             <option value="2"><p>About as much as as the average person<p></option>
             <option value="3"><p>I don't really ay attention to those things</p></option>
@@ -23,29 +25,38 @@
         <label for="q2"><p>Which working environment do you prefer?
           <br>A: working for a company/enterprise/organization
           <br>B: working independently as a freelancer</p></label>
+          <br>
           <select id="q2">
+            <option value="blank"><p></p></option>
             <option value="a"><p>A</p></option>
             <option value="b"><p>B</p></option>
           </select>
           <br>
         <label for="q3"><p>Do you like to take photos, draw, or paint? Do you critique fashion or visual effects in TV or movies? </p></label>
+        <br>
           <select id="q3">
+            <option value="blank"><p></p></option>
             <option value="1"><p>I enjoy doing one or more of those things, or something else related to visual arts. </p></option>
             <option value="2"><p>No, I don't really care about those things.</p></option>
           </select>
           <br>
         <label for="q4"><p>Would you prefer to work on mobile apps or websites?</p></label>
+        <br>
         <select id="q4">
+          <option value="blank"><p></p></option>
           <option value="1"><p>Mobile Apps!</p></option>
           <option value="2"><p>Websites!</p></option>
         </select>
           <br>
         <label for="q5"><p>Would you be interested in working on dynamic content for a small company or startup?</p></label>
+        <br>
           <select id="q5">
+            <option value="blank"><p></p></option>
             <option value="1"><p>Yes</p></option>
             <option value="2"><p>No</p></option>
             <option value="3"><p>Maybe</p></option>
           </select>
+          <br>
           <br>
           <button class="btn" type="submit">Submit</button>
       </form>

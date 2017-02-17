@@ -5,17 +5,24 @@
 body {
   background-image:
 
+/*
   url("http://cdn.wonderfulengineering.com/wp-content/uploads/2014/07/Hi-Tech-Wallpaper-1.png");
-
+  */
   /*url("https://cdn.cloudpix.co/images/tumblr-backgrounds/more-tumblr-backgrounds-for-guys-light-gray-1a2ae3139fa930300cadb4928cff05a0-large-1160919.jpg");*/
+  url("http://www.publicdomainpictures.net/pictures/100000/velka/purple-grey-background-texture.jpg");
 
 
   background-attachment: fixed;
   background-position: center;
 }
 
+#h1div{
+  margin-top: 125px;
+}
 p{
-  color:  white;
+  color: lightgray;
+  font-size: 20px;
+  font-family: sans-serif;
 
 }
 
