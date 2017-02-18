@@ -12,46 +12,48 @@ $(function(){
       if (graphicDesign==="1"&&hobbies==="y"){
         $("#showCSSDesign").show();
         $("#showAnswers").show();
-        }
+      }
       else if (dynamicContent==="y"&&appsVsWeb==="websites"&&workingEnv==="startup"){
         $("#showRubyRails").show();
-        }
+      }
       else {
         $("#showJavaAndroid").show();
-        }
       }
+    }
     //else show alert, specific missing info
     else{
       alert("There is missing information and we may not accurately match you");
       if (graphicDesign!=="blank"){
-        }
+      }
       else{
         $("#errorq1").show();
-        }
+      }
       if (workingEnv!=="blank"){
-        }
+      }
       else{
         $("#errorq2").show();
-        }
+      }
       if (hobbies!=="blank"){
-        }
+      }
       else{
         $("#errorq3").show();
-        }
+      }
       if (appsVsWeb!=="blank"){
-        }
+      }
       else{
         $("#errorq4").show();
-        }
+      }
       if (dynamicContent!=="blank"){
-        }
+      }
       else{
         $("#errorq5").show();
-        }
       }
+    }
     event.preventDefault();
-    });
-  // $("div#showAnswers").submit(function(){
-  //   $("div#showAnswers").hide();
-    // });
   });
+  $(".retake").click(function(){
+    $("#showCSSDesign").hide();
+    $("#showRubyRails").hide();
+    $("#showJavaAndroid").hide();
+  });
+});

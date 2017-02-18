@@ -1,23 +1,23 @@
-#showJavaAndroid, #showCSSDesign, #showRubyRails, #errorq1, #errorq2, #errorq3, #errorq4, #errorq5, div#showAnswers {
+#showJavaAndroid, #showCSSDesign, #showRubyRails, #errorq1, #errorq2, #errorq3, #errorq4, #errorq5 {
   display: none;
-  }
+}
 
 body {
   background-image:
   url("http://www.publicdomainpictures.net/pictures/100000/velka/purple-grey-background-texture.jpg");
   background-attachment: fixed;
   background-position: center;
-  }
+}
 
 #h1div{
   margin-top: 125px;
-  }
+}
 
 p{
-  color: lightgray;
+  color: #ffd1b3;
   font-size: 20px;
   font-family: sans-serif;
-  }
+}
 
 div#showAnswers{
   color: lightgreen;
@@ -25,24 +25,24 @@ div#showAnswers{
   font-family: serif;
   padding: 50px;
   text-align: center;
-  }
+}
 
 div#container{
   padding: 50px;
   margin: 50px;
-  }
+}
 
 h1{
   color: lightgray;
   text-align: center;
-  }
+}
 
 h2{
   color: lightyellow;
   text-align: center;
-  }
+}
 
 div#missingInfo{
   padding: 50px;
   margin: 50px:
-  }
+}
