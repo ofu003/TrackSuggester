@@ -1,4 +1,3 @@
-
 $(function(){
   $("form#Form").submit(function(event){
     var graphicDesign = $("#q1").val();
@@ -55,5 +54,10 @@ $(function(){
     $("#showCSSDesign").hide();
     $("#showRubyRails").hide();
     $("#showJavaAndroid").hide();
+    $("#errorq1").hide();
+    $("#errorq2").hide();
+    $("#errorq3").hide();
+    $("#errorq4").hide();
+    $("#errorq5").hide();
   });
 });

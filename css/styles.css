@@ -19,7 +19,7 @@ p{
   font-family: sans-serif;
 }
 
-div#showAnswers{
+.answertext{
   color: lightgreen;
   font-size: 25px;
   font-family: serif;
