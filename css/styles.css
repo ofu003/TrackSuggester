@@ -15,7 +15,7 @@ body {
 
 p{
   color: #ffd1b3;
-  font-size: 20px;
+  font-size: 18px;
   font-family: sans-serif;
 }
 
@@ -40,6 +40,7 @@ h1{
 h2{
   color: lightyellow;
   text-align: center;
+  font-size: 30px;
 }
 
 div#missingInfo{
